@@ -17,6 +17,7 @@ export const KNOWN_LANGUAGES = {
   Deutsch: "de",
   正體中文: "zh_hant",
   hindi: "hi",
+  Русский: "ru"
 } as const;
 export const KNOWN_LANGUAGE_CODES = Object.values(KNOWN_LANGUAGES);
 
