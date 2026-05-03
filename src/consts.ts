@@ -107,12 +107,12 @@ export const SIDEBAR: Sidebar = {
     // ],
   },
   ru: {
-    Introduction: [{ text: "Добро пожаловать!", link: "ru/welcome" }],
-    Community: [
+    Введение: [{ text: "Добро пожаловать!", link: "ru/welcome" }],
+    Сообщество: [
       { text: "Введение в сообщество", link: "ru/community/community" },
       { text: "Наши правила", link: "ru/community/codeofconduct" },
     ],
-    Setup: [
+    Установка,настройка: [
       { text: "Системные требования", link: "ru/setup/requirements" },
       { text: "Получение образа Ultramarine", link: "ru/setup/getting" },
       { text: "Клавиши для входа в BIOS", link: "ru/setup/bioskeys" },
@@ -128,10 +128,10 @@ export const SIDEBAR: Sidebar = {
       },
       { text: "NVIDIA", link: "ru/setup/nvidia" },
     ],
-    Contributing: [
-      { text: "Overview", link: "ru/contributing/contributorguide" },
+    Внесение_вклада: [
+      { text: "Обзор", link: "ru/contributing/contributorguide" },
       { text: "Разработка", link: "ru/contributing/hacking" },
-      { text: "Mirroring", link: "ru/contributing/mirroring" },
+      { text: "Создание зеркал", link: "ru/contributing/mirroring" },
     ],
     //Hardware: [
     //{ text: "Ultramarine Anywhere", link: "en/hardware/anywhere" },
@@ -141,13 +141,13 @@ export const SIDEBAR: Sidebar = {
     //  link: "en/hardware/broadcom-realtek",
     //},
     //],
-    Anywhere: [
+    Где_угодно: [
       { text: "Ultramarine везде", link: "ru/anywhere/anywhere" },
       { text: "Microsoft Surface", link: "ru/anywhere/surface" },
       { text: "Raspberry Pi", link: "ru/anywhere/rpi" },
       { text: "WSL", link: "ru/anywhere/wsl" },
     ],
-    Usage: [
+    Использование: [
       { text: "Gaming on Ultramarine", link: "ru/usage/gaming" },
       { text: "Localization", link: "ru/usage/l10n" },
       { text: "Keyboard Configuration", link: "ru/usage/keyboard-cfg" },
